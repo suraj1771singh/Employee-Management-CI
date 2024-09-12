@@ -91,7 +91,6 @@ def remove_employee(cursor, emp_id):
 
 
 def admin_panel(cursor):
-    """Admin operations panel with improved console view."""
     while True:
         print("\n" + "=" * 40)
         print(" " * 10 + "ADMIN DASHBOARD")
